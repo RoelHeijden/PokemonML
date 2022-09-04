@@ -1,0 +1,62 @@
+ABILITIES:
+    263 abilities
+    collected from the pokemon in pokemon.json
+
+
+WEATHERS:
+    7 weathers
+    + 'none' for no weather
+    counters not included
+
+
+TERRAINS
+    4 terrains
+    + 'none' for no terrain
+    counters not included
+
+
+ITEMS:
+    196 items
+    + USELESS_ITEM slot for items without any competitive use
+    + 'none' slot for itemless pokemon
+    collected from training dataset
+
+
+MOVES:
+    757 moves
+    filtered out non-standard moves except 'Past'
+    includes moves no longer in the game (e.g. hidden power)
+    hidden power split over multiple moves (1 for each type)
+    collected from poke-env's moves json
+
+
+POKEMON:
+    1033 Pokemon
+    merged pokemon aesthetic pokemon forms into one
+    Collected from PMariglia's Pokedex, manually removed illegal Pokemon (may contain mistakes)
+
+
+STATUS:
+    6 Status conditions
+    + 'none' slot for no status
+
+
+TYPES:
+    18 types
+    does not include '???' as type
+
+
+MOVE_CATEGORIES:
+    3 categories
+
+
+SIDE_CONDITIONS:
+    11 side conditions
+    includes toxic counter
+
+
+VOLATILES_STATUSES:
+    29 volatile status conditions
+    includes 4 perish conditions (one for each count 0-3)
+    includes 'choicelock'
+    includes 'vulnerablestage' and 'invulnerablestage' for two turn charging moves

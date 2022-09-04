@@ -1,0 +1,13 @@
+{
+  "toxic_count": 1,
+  "protect": 2,
+  "stealthrock": 3,
+  "toxicspikes": 4,
+  "reflect": 5,
+  "lightscreen": 6,
+  "spikes": 7,
+  "stickyweb": 8,
+  "auroraveil": 9,
+  "tailwind": 10,
+  "safeguard": 11
+}
